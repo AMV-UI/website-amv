@@ -71,6 +71,7 @@ export async function getStaticProps() {
     return item;
   });
 
+
   return {
     props: {
       sponsors: sponsors,

@@ -1,6 +1,5 @@
 import { Badge } from "@chakra-ui/react";
 import CardMember from "@components/card/member/CardMember";
-import { data } from "autoprefixer";
 
 const SectionMember = ({ division }) => {
   return (
