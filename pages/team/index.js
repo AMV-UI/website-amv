@@ -17,6 +17,7 @@ const Team = ({ divisions }) => {
   );
 };
 
+
 export async function getStaticProps() {
   const membersData = readData("members.json");
   const divisionsData = readData("divisions.json");
