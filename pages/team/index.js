@@ -19,7 +19,7 @@ const Team = ({ divisions }) => {
 
 
 export async function getStaticProps() {
-  const membersData = readData("members.json");
+  const membersData = readData("member/currentMember.json");
   const divisionsData = readData("divisions.json");
   const divisions = Object.entries(divisionsData).map(([_, item]) => {
     item.members = [];
